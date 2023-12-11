@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>SHEET</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              SHEET
+            </span>
+          </a>
+
+          <div class="navbar-collapse" id="">
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">HOME</a>
+                <a href="about.html">javascript</a>
+                <a href="feature.html">API</a>
+                <a href="API2.html">API2</a>
+                <a href="chat.html">Chart</a>
+                <a href="sheets.html">sheet</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+<br>
+  <h1>Google sheet</h1>
+
+<table class="c">
+    <tr>
+      <td class="t">
+        <center>
+          <section class="service_section layout_padding">
+            <div class="container">
+              <div class="heading_container">
+                <h2>Google sheet</h2>
+                <img src="images/plug.png" alt="">
+              </div>
+              <div class="service_container">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="images/16.jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <h5>Sheet</h5>
+                    <form method="POST" id="my-form" action="https://script.google.com/macros/s/AKfycbwD3p9eozVNCFL6qFYsRRqFRk5pDkNTpsFl_G8w9MNVphX8P3-oCSbDvPQHcN8kSf8bcA/exec">
+                      <input name="Email" type="email" placeholder="Email" required=""><br><br>
+                      <input name="Name" type="text" placeholder="Name" required=""><br><br>
+                      <button type="submit" class="button-64">ยืนยัน</button>
+                    </form>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="img-box">
+                    <img src="images/17.jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <h5>Show Sheet</h5>
+                    
+                    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRChDMBo1rdZgpievbUEg2LkLWWdB9D7m91eQC6dlJJOxnOjHs6jbwYjYUB0INRcZ8QN6HnyjUzQGcJ/pubhtml?gid=0&single=true" style="width: 300px; height: 350px;">
+                    </iframe>
+                    <br>
+<a style="font-size: 13px;" href="https://docs.google.com/spreadsheets/d/1e_PvgdpepW3fzBOT4pRhimTu64Irbb_s94wkrrjjHIE/edit?usp=sharing">Google Sheets</a>
+          <label id="demo"></label>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </center>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Add your additional HTML content here -->
+
+  <!-- Placeholder div for the script -->
+  <div id="demo2"></div>
+
+  <!-- Add your scripts here -->
+  <script>
+    function myFunction() {
+      fetch("https://catfact.ninja/fact")
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (data) {
+          let txt = " ";
+          for (let x in data) {
+            txt += data[x] + " ";
+            document.getElementById("demo2").innerHTML = txt;
+          }
+          return data;
+        });
+    }
+  </script>
+    
+
+  <br><br><br><br><br>
+  <!-- info section -->
+  <section class="info_section layout_padding-top">
+    <div class="info_logo-box">
+      <h2>
+        โปรดติดต่อฉัน (หน้านี่ c + v เค้ามาอีกที่)
+      </h2>
+    </div>
+    <div class="container">
+      <div class="social_container">
+
+        <div class="social-box">
+          <a href="https://www.facebook.com/NantachaiThiamtad">
+            <img src="images/fb.png">
+          </a>
+
+          <a href="">
+            <img src="images/twitter.png" alt="">
+          </a>
+          <a href="">
+            <img src="images/linkedin.png" alt="">
+          </a>
+          <a href="">
+            <img src="images/instagram.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width");
+      document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+    }
+  </script>
+</body>
+
+</html>
